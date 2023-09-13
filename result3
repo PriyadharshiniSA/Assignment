@@ -1,0 +1,59 @@
+Name=input("Enter your name:")
+register_no=input("Register_No:")
+course=input("Course:")
+mark1=int(input("Enter the Tamil mark:"))
+mark2=int(input("Enter the English mark:"))
+mark3=int(input("Enter the RDBMS mark:"))
+mark4=int(input("Enter the Php mark:"))
+mark5=int(input("Enter the Soft skills mark:"))
+mark6=int(input("Enter the Html mark:"))
+Sum=mark1+mark2+mark3+mark4+mark4+mark5+mark6
+Average=Sum/6
+print("Total mark is:",Sum,"\nAverage mark is:",Average)
+Max_mark=100;
+if(mark1>=mark2 and mark1>=mark3 and mark1>=mark4 and mark1>=mark5 and mark1>=mark6):
+    Max_mark=mark1;
+elif(mark2>=mark3 and mark2>=mark4 and mark2>=mark5 and mark2>=mark6):
+    Max_mark=mark2;
+elif(mark3>=mark4 and mark3>=mark5 and mark3>=mark6):
+    Max_mark=mark3;
+elif(mark4>=mark5 and mark4>=mark6):
+    Max_mark=mark4;
+elif(mark5>=mark6):
+    Max_mark=mark5;
+else:
+        Max_mark=mark6;
+print("Maxium mark is:",Max_mark);
+Min_mark=40;        
+if(mark1<=mark2 and mark1<=mark3 and mark1<=mark4 and mark1<=mark5 and mark1<=mark6):
+    Min_mark=mark1;
+elif(mark2<=mark3 and mark2<=mark4 and mark2<=mark5 and mark2<=mark6):
+    Min_mark=mark2;
+elif(mark3<=mark4 and mark3<=mark5 and mark3<=mark6):
+    Min_mark=mark3;
+elif(mark4<=mark5 and mark4<=mark6):
+    Min_mark=mark4;
+elif(mark5<=mark6):
+    Min_mark=mark5;
+else:
+        Min_mark=mark6;
+print("Minium mark is:",Min_mark);
+if(Average>=90 and Average<=100):
+    print("Your grade is A")
+elif(Average>=70 and Average<=80):
+    print("Your grade is B")
+elif(Average>=50 and Average<=60):
+    print("Your grade is C")
+elif(Average>=30 and Average<=40):
+    print("Your grade is D")
+else:
+    print("Your grade is E")
+if(mark1>=40 and mark2>=40 and mark3>=40 and mark4>=40 and mark5>=40 and mark6>=40):
+    print(" \n\t\tHURRAH! you got Pass mark")
+else:
+    print("\n\t\tOuch! you are Fail")
+if(mark1>=40 and mark2>=40 and mark3>=40 and mark4>=40 and mark5>=40 and mark6>=40):    
+    print("\n\n\t\t\t**THANK YOU**")
+else:
+ print("\n\n\t\t\tBETTER LUCK NEXT TIME!")
+
